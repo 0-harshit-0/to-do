@@ -1,5 +1,11 @@
 # to-do
- to-do api 
+- Create a basic To-do list API.
+- Use REST API
+- Should include authentication
+- Implementation of CRUD functionalities.
+- Using FastAPI as framework.
+- Use MySQL/Mongo db.
+- Include proper python code documentation
 
 ## Setup
 create a .env file in the directory and add the following variables (Example):
@@ -11,5 +17,5 @@ create a .env file in the directory and add the following variables (Example):
 - DBCOLL1 = "todos"
 
 ## Authentication
-Username = test
-Password = test
+- Username = test
+- Password = test
