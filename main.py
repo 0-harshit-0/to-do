@@ -85,3 +85,5 @@ async def update_todo(task_id: str, task: str, status: str, user = Depends(authe
 async def delete_todo(task_id: str, user = Depends(authenticateUser)):
     todoCollection.delete_one({"id": task_id})
     return {"message": "To-do item deleted successfully"}
+
+# uvicorn main:app --reload
