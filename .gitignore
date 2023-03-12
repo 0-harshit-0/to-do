@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+
+mern/node_modules
+mern/package-lock.json
+
 __pycache__/
 *.py[cod]
 *$py.class
